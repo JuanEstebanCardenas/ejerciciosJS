@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>calcula el interes compuesto de tus inversiones</h1>
+    <form action="">
+        <label for="inputMoney">
+        <span>pon tu capital inicial</span>
+            <input type="number" id="InputMoney" />
+        </label>
+        <label for="InputInterest">
+        <span>anade el interes</span>
+            <input type="number" id="InputInterest" />
+        </label>
+        <label for="InputTerm">
+        <span>pon el numero de periodos</span>
+            <input type="number" id="InputTerm" />
+        </label>
+        <label class="filter-option"></label>
+        <button type="button" onclick="onClickButtonCompoundInterest()">
+            calcular interes compuesto
+        </button>
+        <p id="ResultP"></p>
+    </form>
+    <script src="./compouninterest.js"></script>
+</body>
+</html>
